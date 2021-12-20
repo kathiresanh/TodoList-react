@@ -15,7 +15,7 @@ function App() {
   setTodo([...todoItems,data])
    }
 const [todoItems,setTodo] = useState([])
-console.warn(todoItems)
+
   return (
    <div className='container'>
      <div className='row'>
