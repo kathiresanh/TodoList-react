@@ -1,5 +1,5 @@
 import react from "react";
-import { useState } from "react/cjs/react.development";
+import react { useState } from "react";
 
 export default function Card(props) {
   const [data,setdata] =useState(null)
